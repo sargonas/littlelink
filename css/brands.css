@@ -84,7 +84,7 @@ button:hover,
   filter: brightness(90%) }
 
 /* Chia Green for work email*/
-.button.button-default {
+.button.button-chia {
   color: #FFFFFF;
   background-color: #3AAC59 }
 .button.button-default:hover,
