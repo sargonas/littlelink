@@ -82,6 +82,14 @@ button:hover,
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%) }
+
+/* Chia Green for work email*/
+.button.button-default {
+  color: #FFFFFF;
+  background-color: #3AAC59 }
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%) }
   
 /* Bandcamp */
 .button.button-bandcamp {
