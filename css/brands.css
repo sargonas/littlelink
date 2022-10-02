@@ -45,16 +45,19 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+
 button:hover,
 .button:focus {
   color: #333;
   border-color: #888;
   outline: 0;
 }
+
 .button.button-primary {
   color: #fff;
   filter: brightness(90%);
 }
+
 .button.button-primary:hover,
 .button.button-primary:focus {
   color: #fff;
@@ -76,7 +79,7 @@ button:hover,
 
 /* Default (this is great for your own brand color!) */
 .button.button-default {
-  color: #ffffff;
+  color: #fff;
   background-color: #0085ff;
 }
 .button.button-default:hover,
@@ -85,7 +88,7 @@ button:hover,
 
 /* Chia Green for work email*/
 .button.button-chia {
-  color: #FFFFFF;
+  color: #fff;
   background-color: #3AAC59 }
 .button.button-default:hover,
 .button.button-default:focus {
@@ -93,14 +96,14 @@ button:hover,
   
 /* Bandcamp */
 .button.button-bandcamp {
-  color: #ffffff;
+  color: #fff;
   background-color: #1d9fc3;
 }
 
 /* Amazon */
 .button.button-amazon {
-  color: #000000;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
 }
 .button.button-amazon:hover,
 .button.button-amazon:focus {
@@ -109,8 +112,8 @@ button:hover,
 
 /* Apple App Store */
 .button.button-appstore {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-appstore:hover,
 .button.button-appstore:focus {
@@ -119,7 +122,7 @@ button:hover,
 
 /* Bandcamp */
 .button.button-bandcamp {
-  color: #ffffff;
+  color: #fff;
   background-color: #1d9fc3;
 }
 .button.button-bandcamp:hover,
@@ -139,7 +142,7 @@ button:hover,
 
 /* Ko-fi */
 .button.button-ko-fi {
-  color: #ffffff;
+  color: #fff;
   background-color: #13C3FF;
 }
 .button.button-ko-fi:hover,
@@ -149,7 +152,7 @@ button:hover,
 
 /* Cash App */
 .button.button-cashapp {
-  color: #ffffff;
+  color: #fff;
   background-image: linear-gradient(to bottom, #00d64b, #00c244);
 }
 .button.button-cashapp:hover,
@@ -159,7 +162,7 @@ button:hover,
 
 /* dev.to */
 .button.button-dev-to {
-  color: #000000;
+  color: #000;
   background-color: #f5f5f5;
 }
 .button.button-dev-to:hover,
@@ -169,7 +172,7 @@ button:hover,
 
 /* Discord */
 .button.button-discord {
-  color: #ffffff;
+  color: #fff;
   background-color: #5865f2;
 }
 .button.button-discord:hover,
@@ -179,7 +182,7 @@ button:hover,
 
 /* Etsy */
 .button.button-etsy {
-  color: #ffffff;
+  color: #fff;
   background-color: #F45800;
 }
 .button.button-etsy:hover,
@@ -189,7 +192,7 @@ button:hover,
 
 /* Facebook */
 .button.button-faceb {
-  color: #ffffff;
+  color: #fff;
   background-color: #1877f2;
 }
 .button.button-faceb:hover,
@@ -199,7 +202,7 @@ button:hover,
 
 /* Facebook Messenger */
 .button.button-messenger {
-  color: #ffffff;
+  color: #fff;
   background-image: linear-gradient(
     25deg,
     #0099ff,
@@ -217,8 +220,8 @@ button:hover,
 
 /* Figma */
 .button.button-figma {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-figma:hover,
 .button.button-figma:focus {
@@ -227,8 +230,8 @@ button:hover,
 
 /* Flickr */
 .button.button-flickr {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-flickr:hover,
 .button.button-flickr:focus {
@@ -237,8 +240,8 @@ button:hover,
 
 /* Github */
 .button.button-github {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -247,7 +250,7 @@ button:hover,
 
 /* Gitlab */
 .button.button-gitlab {
-  color: #ffffff;
+  color: #fff;
   background-color: #6151b2;
 }
 .button.button-gitlab:hover,
@@ -267,8 +270,8 @@ button:hover,
 
 /* Google Play Store */
 .button.button-playstore {
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-playstore:hover,
 .button.button-playstore:focus {
@@ -277,7 +280,7 @@ button:hover,
 
 /* Instagram */
 .button.button-instagram {
-  color: #ffffff;
+  color: #fff;
   background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
 }
 .button.button-instagram:hover,
@@ -287,7 +290,7 @@ button:hover,
 
 /* kickstarter */
 .button.button-kickstarter {
-  color: #ffffff;
+  color: #fff;
   background-color: #05ce78;
 }
 .button.button-kickstarter:hover,
@@ -297,8 +300,8 @@ button:hover,
 
 /* Kit */
 .button.button-kit {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-kit:hover,
 .button.button-kit:focus {
@@ -307,7 +310,7 @@ button:hover,
 
 /* LinkedIn */
 .button.button-linked {
-  color: #ffffff;
+  color: #fff;
   background-color: #2867b2;
 }
 .button.button-linked:hover,
@@ -317,7 +320,7 @@ button:hover,
 
 /* Mastodon */
 .button.button-mastodon {
-  color: #ffffff;
+  color: #fff;
   background-color: #1f232b;
 }
 .button.button-mastodon:hover,
@@ -327,8 +330,8 @@ button:hover,
 
 /* Medium */
 .button.button-medium {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-medium:hover,
 .button.button-medium:focus {
@@ -337,11 +340,11 @@ button:hover,
 
 /* Notion */
 .button.button-notion {
-  color: #000000;
+  color: #000;
   border-style: solid;
-  border-color: #000000;
+  border-color: #000;
   border-width: 2px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .button.button-notion:hover,
 .button.button-notion:focus {
@@ -350,7 +353,7 @@ button:hover,
 
 /* OnlyFans */
 .button.button-onlyfans {
-  color: #ffffff;
+  color: #fff;
   background-color: #00AEEF;
 }
 .button.button-onlyfans:hover,
@@ -360,7 +363,7 @@ button:hover,
 
 /* Patreon */
 .button.button-patreon {
-  color: #ffffff;
+  color: #fff;
   background-color: #ff424d;
 }
 .button.button-patreon:hover,
@@ -370,7 +373,7 @@ button:hover,
 
 /* PayPal */
 .button.button-paypal {
-  color: #ffffff;
+  color: #fff;
   background-color: #003087;
 }
 .button.button-paypal:hover,
@@ -380,7 +383,7 @@ button:hover,
 
 /* Pinterest */
 .button.button-pinterest {
-  color: #000000;
+  color: #000;
   background-color: #ffe2eb;
 }
 .button.button-pinterest:hover,
@@ -394,7 +397,7 @@ button:hover,
   border-style: solid;
   border-color: #da552f;
   border-width: 2px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
@@ -403,7 +406,7 @@ button:hover,
 
 /* Reddit */
 .button.button-reddit {
-  color: #000000;
+  color: #000;
   background-color: #d7dfe2;
 }
 .button.button-reddit:hover,
@@ -413,7 +416,7 @@ button:hover,
 
 /* Signal */
 .button.button-signal {
-  color: #ffffff;
+  color: #fff;
   background-color: #3a76f0;
 }
 .button.button-signal:hover,
@@ -423,7 +426,7 @@ button:hover,
 
 /* Skoob */
 .button.button-skoob {
-  color: #ffffff;
+  color: #fff;
   background-color: #3189c8;
 }
 .button.button-skoob:hover,
@@ -433,7 +436,7 @@ button:hover,
 
 /* Snapchat */
 .button.button-snapchat {
-  color: #000000;
+  color: #000;
   background-color: #fffc00;
 }
 .button.button-snapchat:hover,
@@ -443,7 +446,7 @@ button:hover,
 
 /* SoundCloud */
 .button.button-soundcloud {
-  color: #ffffff;
+  color: #fff;
   background-color: #ff5500;
 }
 .button.button-soundcloud:hover,
@@ -463,7 +466,7 @@ button:hover,
 
 /* Steam */
 .button.button-steam {
-  color: #ffffff;
+  color: #fff;
   background-color: #171a21;
 }
 .button.button-steam:hover,
@@ -473,7 +476,7 @@ button:hover,
 
 /* Telegram */
 .button.button-telegram {
-  color: #ffffff;
+  color: #fff;
   background-color: #3faee8;
 }
 .button.button-telegram:hover,
@@ -483,7 +486,7 @@ button:hover,
 
 /* Threema */
 .button.button-threema {
-  color: #000000;
+  color: #000;
   background-color: #3fe669;
 }
 .button.button-threema:hover,
@@ -493,8 +496,8 @@ button:hover,
 
 /* TikTok */
 .button.button-tiktok {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
@@ -503,7 +506,7 @@ button:hover,
 
 /* Trello */
 .button.button-trello {
-  color: #ffffff;
+  color: #fff;
   background-color: #0065ff;
 }
 .button.button-trello:hover,
@@ -513,7 +516,7 @@ button:hover,
 
 /* Tumblr */
 .button.button-tumb {
-  color: #ffffff;
+  color: #fff;
   background-color: #131313;
 }
 .button.button-tumb:hover,
@@ -523,7 +526,7 @@ button:hover,
 
 /* Twitch */
 .button.button-twitch {
-  color: #ffffff;
+  color: #fff;
   background-color: #9146ff;
 }
 .button.button-twitch:hover,
@@ -533,7 +536,7 @@ button:hover,
 
 /* Twitter */
 .button.button-twit {
-  color: #ffffff;
+  color: #fff;
   background-color: #1da1f2;
 }
 .button.button-twit:hover,
@@ -543,7 +546,7 @@ button:hover,
 
 /* Venmo */
 .button.button-venmo {
-  color: #ffffff;
+  color: #fff;
   background-color: #008CFF;
 }
 .button.button-venmo:hover,
@@ -553,7 +556,7 @@ button:hover,
 
 /* Vimeo */
 .button.button-vimeo {
-  color: #ffffff;
+  color: #fff;
   background-color: #1ab7ea;
 }
 .button.button-vimeo:hover,
@@ -563,8 +566,8 @@ button:hover,
 
 /* VRChat */
 .button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
   border: 2px solid black;
 }
 .button.button-vrchat:hover,
@@ -574,8 +577,8 @@ button:hover,
 
 /* Website */
 .button.button-web {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-web:hover,
 .button.button-web:focus {
@@ -584,7 +587,7 @@ button:hover,
 
 /* WhatsApp */
 .button.button-whatsapp {
-  color: #ffffff;
+  color: #fff;
   background-color: #455a64;
 }
 .button.button-whatsapp:hover,
@@ -594,7 +597,7 @@ button:hover,
 
 /* Wordpress */
 .button.button-wordpress {
-  color: #ffffff;
+  color: #fff;
   background-color: #21759b;
 }
 .button.button-wordpress:hover,
@@ -604,7 +607,7 @@ button:hover,
 
 /* Xing */
 .button.button-xing {
-  color: #ffffff;
+  color: #fff;
   background-color: #026466;
 }
 .button.button-xing:hover,
@@ -614,8 +617,8 @@ button:hover,
 
 /* YouTube */
 .button.button-yt {
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
@@ -624,7 +627,7 @@ button:hover,
 
 /* Letterboxd */
 .button.button-letterboxd {
-  color: #ffffff;
+  color: #fff;
   background-color: #2c3440;
 }
 .button.button-letterboxd:hover,
