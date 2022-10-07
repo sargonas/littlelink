@@ -512,9 +512,10 @@ button:hover,
 
 /* Strava */
 .button.button-strava {
-  color: #ffffff;
+  color: #fff;
   background-color: #fc5200;
 }
+
 .button.button-strava:hover,
 .button.button-strava:focus {
   filter: brightness(90%);
@@ -610,9 +611,10 @@ button:hover,
 
 /* Untappd */
 .button.button-untappd {
-  color: #ffffff;
+  color: #fff;
   background-color: #ffc000;
 }
+
 .button.button-untappd:hover,
 .button.button-untappd:focus {
   filter: brightness(90%);
