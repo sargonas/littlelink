@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: me.sargonas.com
+      url: https://me.sargonas.com
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
