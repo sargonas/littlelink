@@ -408,6 +408,18 @@ button:hover,
   filter: brightness(90%);
 }
 
+
+/* Photography */
+.button.button-photog {
+  color: #fff;
+  background-image: linear-gradient(to right, #6600ff 0%, #000000 100%);
+}
+
+.button.button-paypal:hover,
+.button.button-paypal:focus {
+  filter: brightness(90%);
+}
+
 /* Pinterest */
 .button.button-pinterest {
   color: #000;
