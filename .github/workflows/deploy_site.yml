@@ -22,11 +22,8 @@ jobs:
     - name: Deploy static site to S3 bucket
       run: aws s3 sync . s3://me.sargonas.com --delete
 
-     - name: Clear Cloudflare cache
+    - name: Clear Cloudflare cache
       uses: Cyb3r-Jak3/clear-cloudflare-cache@0.0.1
       env:
-        # Zone is required by both methods
         zone: ${{ secrets.CLOUDFLARE_ZONE }}
-
-        # Using API Token
         api_token: ${{ secrets.CLOUDFLARE_TOKEN }}
