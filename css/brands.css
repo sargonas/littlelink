@@ -408,11 +408,10 @@ button:hover,
   filter: brightness(90%);
 }
 
-
 /* Photography */
 .button.button-photog {
   color: #fff;
-  background-image: linear-gradient(-135deg, #6600ff, #093679, #000000);
+  background-image: linear-gradient(-135deg, #000, #093679, #60f);
 }
 
 .button.button-photog:hover,
