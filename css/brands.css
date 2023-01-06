@@ -121,6 +121,46 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Apple Music */
+.button.button-apple-music {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-apple-music:hover,
+.button.button-apple-music:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Music Alt */
+.button.button-apple-music-alt {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
+}
+.button.button-apple-music-alt:hover,
+.button.button-apple-music-alt:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Podcasts */
+.button.button-apple-podcasts {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-apple-podcasts:hover,
+.button.button-apple-podcasts:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Podcasts Alt */
+.button.button-apple-podcasts-alt {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #F452FF, #832BC1);
+}
+.button.button-apple-podcasts-alt:hover,
+.button.button-apple-podcasts-alt:focus {
+  filter: brightness(90%);
+}
+
 /* Bandcamp */
 .button.button-bandcamp {
   color: #fff;
@@ -143,11 +183,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Clubhouse */
+.button.button-clubhouse {
+  color: #1F1F1A;
+  background-color: #F1EFE3;
 /* Ko-fi */
 .button.button-ko-fi {
   color: #fff;
   background-color: #13c3ff;
 }
+.button.button-coffee:hover,
+.button.button-coffee:focus {
 
 .button.button-ko-fi:hover,
 .button.button-ko-fi:focus {
@@ -251,7 +297,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Github */
+/* GitHub */
 .button.button-github {
   color: #fff;
   background-color: #000;
@@ -295,6 +341,36 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Google Podcasts */
+.button.button-google-podcasts {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.button.button-google-podcasts:hover,
+.button.button-google-podcasts:focus {
+  filter: brightness(90%);
+}
+
+/* Google Scholar */
+.button.button-google-scholar {
+  color: #000000;
+  background-color: #f5f5f5;
+}
+.button.button-google-scholar:hover,
+.button.button-google-scholar:focus {
+  filter: brightness(90%);
+}
+
+/* Hashnode */
+.button.button-hashnode {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-hashnode:hover,
+.button.button-hashnode:focus {
+  filter: brightness(90%);
+}
+
 /* Instagram */
 .button.button-instagram {
   color: #fff;
@@ -325,6 +401,26 @@ button:hover,
 
 .button.button-kit:hover,
 .button.button-kit:focus {
+  filter: brightness(90%);
+}
+
+/* Ko-fi */
+.button.button-ko-fi {
+  color: #ffffff;
+  background-color: #13C3FF;
+}
+.button.button-ko-fi:hover,
+.button.button-ko-fi:focus {
+  filter: brightness(90%);
+}
+
+/* Letterboxd */
+.button.button-letterboxd {
+  color: #ffffff;
+  background-color: #2c3440;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
   filter: brightness(90%);
 }
 
@@ -430,6 +526,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Post.news */
+.button.button-post-news {
+  color: #ffffff;
+  background-color: #678BFF;
+}
+.button.button-post-news:hover,
+.button.button-post-news:focus {
+  filter: brightness(90%);
+}
+
 /* Producthunt */
 .button.button-producthunt {
   color: #da552f;
@@ -441,6 +547,19 @@ button:hover,
 
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
+  filter: brightness(90%);
+}
+
+/* Redbubble */
+.button.button-redbubble {
+  color: #e41321;
+  border-style: solid;
+  border-color: #e41321;
+  border-width: 2px;
+  background-color: #ffffff;
+}
+.button.button-redbubble:hover,
+.button.button-redbubble:focus {
   filter: brightness(90%);
 }
 
@@ -510,6 +629,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Spotify Alt */
+.button.button-spotify-alt {
+  color: #FFFFFF;
+  background-color: #191414;
+}
+.button.button-spotify-alt:hover,
+.button.button-spotify-alt:focus {
+  filter: brightness(90%);
+}
+
 /* Steam */
 .button.button-steam {
   color: #fff;
@@ -529,6 +658,16 @@ button:hover,
 
 .button.button-strava:hover,
 .button.button-strava:focus {
+  filter: brightness(90%);
+}
+
+/* Substack */
+.button.button-substack {
+  color: #ffffff;
+  background-color: #FF6719;
+}
+.button.button-substack:hover,
+.button.button-substack:focus {
   filter: brightness(90%);
 }
 
@@ -631,6 +770,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Venmo */
+.button.button-venmo {
+  color: #ffffff;
+  background-color: #008CFF;
+}
+.button.button-venmo:hover,
+.button.button-venmo:focus {
+  filter: brightness(90%);
+}
+
 /* Vimeo */
 .button.button-vimeo {
   color: #fff;
@@ -709,11 +858,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Unsplash */
+.button.button-unsplash {
+  color: #000000;
+  background-color: #ffffff;
 /* Letterboxd */
 .button.button-letterboxd {
   color: #fff;
   background-color: #2c3440;
 }
+.button.button-unsplash:hover,
+.button.button-unsplash:focus {
 
 .button.button-letterboxd:hover,
 .button.button-letterboxd:focus {
