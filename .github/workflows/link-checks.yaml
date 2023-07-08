@@ -1,0 +1,15 @@
+---
+name: Link checker
+on:
+  push:
+jobs:
+  hyperlink-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          fail: true
