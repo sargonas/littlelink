@@ -1,3 +1,5 @@
+[![Check Links](https://github.com/sargonas/me.sargonas.com/actions/workflows/link-checks.yaml/badge.svg)](https://github.com/org/repo/actions/workflows/link-checks.yaml)
+
 # My LittleLink Fork
 This is a custom fork of LittleLink, by Seth Cottle https://github.com/sethcottle/littlelink. The biggest changes are simply some light adjustemtns to a few brand CSS styles, and the re-organization of the links I used in a personal-preference sort order, instead of the default alphabetical.
 
