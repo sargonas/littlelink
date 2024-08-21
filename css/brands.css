@@ -192,12 +192,23 @@ button:hover,
 
 /* Bluesky */
 .button.button-bluesky {
-  color: #000000;
-  background-color: #F3F9FF;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #1185FE;
 }
+
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
+  filter: brightness(90%);
+}
+
+/* Bluesky Alt */
+.button.button-bluesky-alt {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.button.button-bluesky-alt:hover,
+.button.button-bluesky-alt:focus {
   filter: brightness(90%);
 }
 
@@ -278,10 +289,32 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Discogs */
+.button.button-discogs {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000
+}
+.button.button-discogs:hover,
+.button.button-discogs:focus {
+  filter: brightness(90%);
+}
+
+/* Discogs Alt */
+.button.button-discogs-alt {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF
+}
+.button.button-discogs-alt:hover,
+.button.button-discogs-alt:focus {
+  filter: brightness(90%);
+}
+
 /* Discord */
 .button.button-discord {
-  color: #fff;
-  background-color: #5865f2;
+  color: #ffffff;
+  background-color: #161CBB;
 }
 
 .button.button-discord:hover,
@@ -443,17 +476,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Google Podcasts */
-.button.button-google-podcasts {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #212121;
-}
-.button.button-google-podcasts:hover,
-.button.button-google-podcasts:focus {
-  filter: brightness(90%);
-}
-
 /* Google Scholar */
 .button.button-google-scholar {
   color: #000000;
@@ -462,16 +484,6 @@ button:hover,
 }
 .button.button-google-scholar:hover,
 .button.button-google-scholar:focus {
-  filter: brightness(90%);
-}
-
-/* Guilded */
-.button.button-guilded {
-  color: #000000;
-  background-color: #F5C400;
-}
-.button.button-guilded:hover,
-.button.button-guilded:focus {
   filter: brightness(90%);
 }
 
@@ -515,7 +527,6 @@ button:hover,
 .button.button-kick-alt:hover {
   filter: brightness(90%);
 }
-
 
 /* Kickstarter */
 .button.button-kickstarter {
@@ -581,7 +592,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-
 /* LinkedIn */
 .button.button-linked {
   color: #fff;
@@ -627,6 +637,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Microsoft */
+.button.button-microsoft {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-microsoft:hover,
+.button.button-microsoft:focus {
+  filter: brightness(90%);
+}
+
 /* NGL */
 .button.button-ngl {
   color: #ffffff;
@@ -662,8 +683,9 @@ button:hover,
 
 /* Patreon */
 .button.button-patreon {
-  color: #fff;
-  background-color: #ff424d;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 
 .button.button-patreon:hover,
@@ -751,13 +773,23 @@ button:hover,
 
 /* Reddit */
 .button.button-reddit {
-  color: #000;
-  background-color: #d7dfe2;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #FF4500;
 }
 
 .button.button-reddit:hover,
 .button.button-reddit:focus {
+  filter: brightness(90%);
+}
+
+/* Revolut */
+.button.button-revolut {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+.button.button-revolut:hover,
+.button.button-revolut:focus {
   filter: brightness(90%);
 }
 
@@ -803,7 +835,6 @@ button:hover,
 .button.button-slack:focus {
   filter: brightness(90%);
 }
-
 
 /* Snapchat */
 .button.button-snapchat {
@@ -859,6 +890,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Stack Overflow */
+.button.button-stack-overflow {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.button.button-stack-overflow:hover,
+.button.button-stack-overflow:focus {
+  filter: brightness(90%);
+}
+
 /* Steam */
 .button.button-steam {
   color: #ffffff;
@@ -867,6 +909,17 @@ button:hover,
 
 .button.button-steam:hover,
 .button.button-steam:focus {
+  filter: brightness(90%);
+}
+
+/* Steam Alt */
+.button.button-steam-alt {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+  border: 1px solid #FFFFFF;
+}
+.button.button-steam-alt:hover,
+.button.button-steam-alt:focus {
   filter: brightness(90%);
 }
 
@@ -933,6 +986,16 @@ button:hover,
 
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+/* Trakt */
+.button.button-trakt {
+  color: #ffffff;
+  background-color: #ED1C24;
+}
+.button.button-trakt:hover,
+.button.button-trakt:focus {
   filter: brightness(90%);
 }
 
@@ -1092,14 +1155,14 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Xing */
-.button.button-xing {
-  color: #fff;
-  background-color: #026466;
+/* X */
+.button.button-x {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
-
-.button.button-xing:hover,
-.button.button-xing:focus {
+.button.button-x:hover,
+.button.button-x:focus {
   filter: brightness(90%);
 }
 
